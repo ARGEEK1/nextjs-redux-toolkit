@@ -20,25 +20,25 @@ const HomePage = () => {
   return (
     <>
       <h1 className="text-center text-2xl">Total: {count}</h1>
-      
+
       <div className="flex justify-center gap-x-2 w-full">
-      <button
-        className="bg-green-500 px-3 py-2 rounded-md"
-        onClick={() => {
-          dispatch(increment());
-        }}
-      >
-        increment
-      </button>
-      <br />
-      <button
-        className="bg-blue-500 px-3 py-2 rounded-md"
-        onClick={() => {
-          dispatch(decrement());
-        }}
-      >
-        decrement
-      </button>
+        <button
+          className="bg-green-500 px-3 py-2 rounded-md"
+          onClick={() => {
+            dispatch(increment());
+          }}
+        >
+          increment
+        </button>
+        <br />
+        <button
+          className="bg-blue-500 px-3 py-2 rounded-md"
+          onClick={() => {
+            dispatch(decrement());
+          }}
+        >
+          decrement
+        </button>
       </div>
 
       <div className="grid grid-cols-3 mx-auto gap-3">
